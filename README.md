@@ -1,7 +1,6 @@
-Paraeta
-=======
-
-A humble starting boilerplate for awesome projects. I wasn't happy with any of the other million existing boilerplates, so I created this one is suited to my taste/skills.
+Dandelion
+=========
+Toy project, to play with new stuff. Still have no idea what it is about, probably something music related.
 
 ## How to use ##
 ```npm start```  
@@ -12,12 +11,3 @@ Builds the assets and puts them into the build  folder
 
 ```npm run deploy```  
 Builds the app and uploads the result to <user>.github.io/<projectName>/
-
-
-## Future Plans ##
-- Add javascript testing #2
-- Add a way to handle image assets #3
-- Add a way to handle font assets #4
-- Add a way to generate favicons #5
-- Get some normalize or base css styles #6
-- Define env variables through an .env file #7
