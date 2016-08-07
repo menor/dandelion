@@ -22,6 +22,14 @@
     "no-underscore-dangle": 1,
     // Default to single quotes and raise an error if something
     // else is used
-    "quotes": [2, "single"]
+    "quotes": [2, "single"],
+    "no-unused-vars": [
+      "error", {
+        "vars": "local",
+        "args": "after-used",
+        # Ignore when we import snabbdom-jsx to render jsx
+        "varsIgnorePattern": "html"
+        }
+     ]
   }
 }
