@@ -92,6 +92,7 @@ switch(process.env.npm_lifecycle_event) {
   default:
     config = merge(
       common,
+      { devtool: 'inline-source-map' },
       parts.setupCSS(PATHS.style),
       parts.devServer({
         host: process.env.HOST,
